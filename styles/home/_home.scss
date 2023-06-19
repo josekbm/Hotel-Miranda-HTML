@@ -1,0 +1,66 @@
+.intro {
+    background-color:#333;
+    padding-top: 70px;
+}
+
+.intro__perfect-base {
+    padding-left: 5.3%;
+    padding-right: 8%;
+    padding-top: 4.6875rem;  
+    padding-bottom: 4.75rem;
+}
+.intro__pretitle {
+    margin-bottom: 2.5rem;
+    margin-right: 7.375rem; 
+}
+.intro__title {
+    margin-bottom: 40px;
+}
+.button__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.intro__availability {
+    padding: 2.25rem 5.3%;
+    width: 100%;
+    background: #222222;
+    gap: 2.625rem;
+    display: flex;
+    flex-direction: column;
+}
+  
+.intro__calendar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+  
+.intro__calendar-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+  
+  
+.intro__calendar-input {
+    max-width: 335px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #bead8e;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 0.875rem;
+    color: #686868;
+}
+  
+.intro__calendar-input::-webkit-calendar-picker-indicator {
+    order: -1;
+    filter: invert(0.5) sepia(1);
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.55rem;
+}

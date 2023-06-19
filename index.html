@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
   <title>Hotel Miranda | HOME</title>
 </head>
 <body>
@@ -23,23 +27,15 @@
         </div>
   
         <div class="nav__list text__nav-items">
-          <li class="nav__item">
-            <a class="nav__link" href="#">About us</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">Rooms</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">Offers</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">Contact</a>
-          </li>
+          <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Rooms</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Offers</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
         </div>
   
         <div class="nav__funcionalities">
           <a href="header__funcionalities-link"
-            ><img
+          ><img
               class="nav__funcionalities-icon"
               src="./img/Header/profile-icon.svg"
               alt="profile-logo"
@@ -53,6 +49,232 @@
         </div>
       </nav>
     </header>
+    <section class="intro">
+      <div class="intro__perfect-base">
+        <h5 class="text__pretitle text--light intro__pretitle">
+          THE ULTIMATE LUXURY EXPERIENCE
+        </h5>
+        <h1 class="text__title text--light intro__title">
+          The Perfect Base for You
+        </h1>
+        <div class="button__intro">
+          <button class="button button--golden button--intro">TAKE A TOUR</button>
+          <button class="button button--dark button--intro">LEARN MORE</button>
+        </div>        
+      </div>
+      <div class="intro__availability">
+        <div class="intro__calendar">
+          <div class="intro__calendar-item">
+            <label class="text--light text__label">Arrival Date</label>
+            <input
+              class="intro__calendar-input"
+              type="date"
+              placeholder="24th march 2020"
+            />
+          </div>
+          <div class="intro__calendar-item">
+            <label class="text--light text__label">Departure Date</label>
+            <input
+              class="intro__calendar-input"
+              type="date"
+              placeholder="30th march 2020"
+            />
+          </div>
+        </div>
+        <button class="button button--golden button--availability">
+          CHECK AVAILABILITY
+        </button>
+      </div>
+    </section>
+    <section class="about-us">
+      <div class="intro__about-us">
+        <h5 class="text__pretitle text--gray about-us__pretitle">
+          ABOUT US
+        </h5>
+        <h1 class="text__title text--black about-us__title">
+          Discover Our Underground.
+        </h1>
+        
+        <p class="text__paragraph text--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <button class="button button--golden button--book">BOOK NOW</button>
+                
+      </div>
+
+      <div class="about-us__cards">
+        <div class="about-us__card--team">
+          <div class="about-us__card--itemteam"></div>
+          <div class="about-us__card--text">
+            <img
+              class="about-us__card--teamicon"
+              src="./img/Home/teamicon.png"
+              alt="equipo icono"
+            >
+            <img
+              class="about-us__card--teamback"
+              src="./img/Home/teambackground.png"
+              alt="equipo background"
+            >
+            <h6 class="text__subtitle about-us__card-title">Strong Team</h6>
+            <p class="text__card-paragraph text--black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+            </p>
+          </div>
+        </div>
+        <div class="about-us__card--luxury">
+          <div class="about-us__card--itemlux"></div>
+          <div class="about-us__card--text about-us__card-text--dark">
+            <img
+              class="about-us__card--teamicon"
+              src="./img/Home/luxury-room.png"
+              alt="equipo icono"
+            >            
+            <h6 class="text__subtitle text--light about-us__card-title">Luxury Room</h6>
+            <p class="text__card-paragraph text--light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+            </p>
+          </div>
+        </div>       
+      </div>
+    </section>
+    <!--Seccion Hand Picked Rooms-->
+    <section class="hanpicked">
+      <h5 class="text__pretitle text--gray text--center handpicked__pretitle">ROOMS</h5>
+      <h1 class="text__title text--lightblack text--center handpicked__title">Han Picked Rooms</h1>
+      <div class="swiper-slide swiper-slide--handpicked-rooms">
+        <div class="room-card">
+          <div class="room-card__img room-card__img--full">
+            <img class="room-card__img--img" src="./img/Home/room1.jpg" alt="room photo">
+            <div class="room-card__features-bar ">
+                <img src="./img/Home/beds.png" alt="bedIcon" class="room-card__features-icon"> 
+                <img src="./img/Home/wifi.png" alt="wifiIcon" class="room-card__features-icon">
+                <img src="./img/Home/parking.png" alt="carIcon" class="room-card__features-icon">
+                <img src="./img/Home/climate.png" alt="winterIcon" class="room-card__features-icon">
+                <img src="./img/Home/gym.png" alt="gymIcon" class="room-card__features-icon">
+                <img src="./img/Home/smoking.png" alt="noSmokingIcon" class="room-card__features-icon">
+                <img src="./img/Home/bar.png" alt="cocktailIcon" class="room-card__features-icon">
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4 class="text__subtitle--small text--lightblack text--center room-card__title">
+              Minimal Duplex Room
+            </h4>
+            <p class="text__card-paragraph text--center text--gray rom-card__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p class="room-card__price room-card__price--small text--gold">
+              345 <span class="room-card__price--night">/Night</span>
+              </p>              
+            </div>           
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="video">      
+        <h5 class="text__pretitle text--gold video__pretitle">
+          INTRO VIDEO
+        </h5>
+        <h1 class="text__title text--light video__title">
+          Meet With Our Luxury Place.
+        </h1>
+        
+        <p class="video__paragraph text__paragraph text--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.
+        </p>
+      <video class="video__video" autoplay muted loop>
+        <source src="./img/Home/Miranda-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <button class="button button--golden button--book">BOOK NOW</button>
+    </section>
+    <section class="facilities">
+      <h5 class="text__pretitle text--gray text--center facilities__pretitle">
+        FACILITIES
+      </h5>
+      <h1 class="text__title text--black facilities__title">
+        Core Features
+      </h1>
+      <div class="swiper swiper--core-features">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">            
+            <div class="core-imgs">
+              <img src="./img/Home/rating.svg" alt="rating" class="core-imgs__rating">
+              <img src="./img/Home/01.svg" alt="01" class="core-imgs__01">
+            </div>
+            <h4 class="text__subtitle--small text--lightblack core__subtitle">
+              Have High Rating
+            </h4>
+            <p class="text__card-paragraph text--gray core__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
+            </p>
+          </div>
+          <div class="swiper-slide">            
+            <div class="core-imgs">
+              <img src="./img/Home/hours.svg" alt="rating" class="core-imgs__rating">
+              <img src="./img/Home/02.svg" alt="01" class="core-imgs__01">
+            </div>
+            <h4 class="text__subtitle--small text--lightblack core__subtitle">
+              Quiet Hours
+            </h4>
+            <p class="text__card-paragraph text--gray core__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
+            </p>
+          </div>
+          <div class="swiper-slide">            
+            <div class="core-imgs">
+              <img src="./img/Home/location.svg" alt="rating" class="core-imgs__rating">
+              <img src="./img/Home/03.svg" alt="01" class="core-imgs__01">
+            </div>
+            <h4 class="text__subtitle--small text--lightblack core__subtitle">
+              Best Locations
+            </h4>
+            <p class="text__card-paragraph text--gray core__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
+            </p>
+          </div>
+          <div class="swiper-slide">            
+            <div class="core-imgs">
+              <img src="./img/Home/cancelation.svg" alt="rating" class="core-imgs__rating">
+              <img src="./img/Home/04.svg" alt="01" class="core-imgs__01">
+            </div>
+            <h4 class="text__subtitle--small text--lightblack core__subtitle">
+              Free Cancelation
+            </h4>
+            <p class="text__card-paragraph text--gray core__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
+            </p>
+          </div>
+          <div class="swiper-slide">            
+            <div class="core-imgs">
+              <img src="./img/Home/payment.svg" alt="rating" class="core-imgs__rating">
+              <img src="./img/Home/05.svg" alt="01" class="core-imgs__01">
+            </div>
+            <h4 class="text__subtitle--small text--lightblack core__subtitle">
+              Payment Options
+            </h4>
+            <p class="text__card-paragraph text--gray core__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
+            </p>
+          </div>
+          <div class="swiper-slide">            
+            <div class="core-imgs">
+              <img src="./img/Home/offers.svg" alt="rating" class="core-imgs__rating">
+              <img src="./img/Home/06.svg" alt="01" class="core-imgs__01">
+            </div>
+            <h4 class="text__subtitle--small text--lightblack core__subtitle">
+              Special Offers
+            </h4>
+            <p class="text__card-paragraph text--gray core__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="./scripts/burger-menu.js"></script>
+<script src="./scripts/swiper.js"></script>
 </body>
 </html>

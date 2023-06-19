@@ -1,5 +1,13 @@
 @use "./styles/header/header";
 @use "./styles/text/text";
+@use "./styles/home/home";
+@use "./styles/button/button";
+@use "./styles/home/about-us";
+@use "./styles/home/rooms";
+@use "./styles/home/roomcard";
+@use "./styles/home/video";
+@use "./styles/home/roomdetail";
+@use ".//styles/home/facilities";
 html, * { 
     box-sizing: border-box;
     margin: 0;

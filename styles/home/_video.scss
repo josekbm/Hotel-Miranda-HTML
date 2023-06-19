@@ -1,0 +1,30 @@
+.video{
+    background-color: #222;
+    padding-left: 5.3%;
+    padding-right: 5.3%;
+    padding-top: 64px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.video__pretitle{
+    margin-bottom: 32px;
+}
+
+.video__title{
+    margin-bottom: 16px;
+}
+
+.video__paragraph{
+    max-width: 485px;
+    margin-bottom: 32px;
+}
+
+.video__video{
+    align-self: center;
+    width: 100%;
+    max-width: 600px;
+    height: 40vh;
+    margin-bottom: 36px;
+}
