@@ -11,44 +11,53 @@
   <title>Hotel Miranda | HOME</title>
 </head>
 <body>
-     <!--HEADER-->
-     <header class="header">
-      <div></div>
-      <nav class="nav">
-        <div class="nav--left">
-          <button class="nav__burger button"></button>
-  
-          <div class="nav__logo">
-            <div class="nav__logo-H">
-              <img src="./img/Header/H.svg" alt="logo" />
-            </div>
-            <img src="./img/Header/Hotel Miranda.svg" alt="logo" />
+  <!--Header-->
+  <header class="header">
+    <div></div>
+    <nav class="nav">
+      <div class="nav--left">
+        <button class="nav__burger button"></button>
+
+        <div class="nav__logo">
+          <div class="nav__logo-H">
+            <img src="./img/Header/H.svg" alt="logo" />
           </div>
+          <img src="./img/Header/Hotel Miranda.svg" alt="logo" />
         </div>
-  
-        <div class="nav__list text__nav-items">
-          <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Rooms</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Offers</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
-        </div>
-  
-        <div class="nav__funcionalities">
-          <a href="header__funcionalities-link"
+      </div>
+
+      <div class="nav__list text__nav-items">
+        <li class="nav__item">
+          <a class="nav__link" href="#">About us</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Rooms</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Offers</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Contact</a>
+        </li>
+      </div>
+
+      <div class="nav__funcionalities">
+        <a href=""
           ><img
-              class="nav__funcionalities-icon"
-              src="./img/Header/profile-icon.svg"
-              alt="profile-logo"
-          /></a>
-          <a href="header__funcionalities-link"
-            ><img
-              class="nav__funcionalities-icon"
-              src="./img/Header/search-icon.svg"
-              alt="search-logo"
-          /></a>
-        </div>
-      </nav>
-    </header>
+            class="nav__funcionalities-icon"
+            src="./img/Header/profile-icon.svg"
+            alt="profile-logo"
+        /></a>
+        <a href=""
+          ><img
+            class="nav__funcionalities-icon"
+            src="./img/Header/search-icon.svg"
+            alt="search-logo"
+        /></a>
+      </div>
+    </nav>
+  </header>
+     
    <!--seccion intro-->
     <section class="intro">
       <div class="intro__perfect-base">
@@ -193,90 +202,74 @@
       <h5 class="text__pretitle text--gray text--center facilities__pretitle">
         FACILITIES
       </h5>
-      <h1 class="text__title text--black facilities__title">
+      <h1 class="text__title text--black text--center facilities__title">
         Core Features
       </h1>
-      <div class="swiper--core-features">
-        <div class="swiper-wrapper core-features__slider">
-          <div class="swiper-slide core-features__slide">            
-            <img src="./img/Home/01.svg" alt="01" class="core-imgs-number">
-            <div class="core-features__slide-info">
-              <img src="./img/Home/rating.svg" alt="" class="core-imgs-icon">            
-              <h4 class="text__subtitle--small text--lightblack core__subtitle">
-                Have High Rating
-              </h4>
-              <p class="text__card-paragraph text--gray core__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
-              </p>
-            </div>
+      <!--Slider de facilities-->
+      <div class="swipper swiper_facilities">
+        <div class="swiper-wrapper">          
+          <div class="swiper-slide"> 
+              <div class="facilities__number">
+                  <img src="./img/Home/rating.svg" alt="high rating">
+                  <h4>01</h4>
+              </div>
+              <div class="facilities__title">
+                  <h5 class="text__subtitle">Have High Rating</h5>
+                  <p class="text__paragraph text--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+              </div>
           </div>
-
-          <div class="swiper-slide core-features__slide">            
-            <img src="./img/Home/02.svg" alt="" class="core-imgs-number">
-            <div class="core-features__slide-info">
-              <img src="./img/Home/hours.svg" alt="" class="core-imgs-icon">            
-              <h4 class="text__subtitle--small text--lightblack core__subtitle">
-                Quiet Hours
-              </h4>
-              <p class="text__card-paragraph text--gray core__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
-              </p>
-            </div>
+          <div class="swiper-slide"> 
+              <div class="facilities__number">
+                  <img src="./img/Home/hours.svg" alt="quiet hours">
+                  <h4>02</h4>
+              </div>
+              <div class="facilities__title">
+                  <h5 class="text__subtitle">Quiet Hours</h5>
+                  <p class="text__paragraph text--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+              </div>
           </div>
-
-          <div class="swiper-slide core-features__slide">            
-            <img src="./img/Home/03.svg" alt="" class="core-imgs-number">
-            <div class="core-features__slide-info">
-              <img src="./img/Home/location.svg" alt="" class="core-imgs-icon">            
-              <h4 class="text__subtitle--small text--lightblack core__subtitle">
-                Best Locations
-              </h4>
-              <p class="text__card-paragraph text--gray core__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
-              </p>
-            </div>
+          <div class="swiper-slide"> 
+              <div class="facilities__number">
+                  <img src="./img/Home/location.svg" alt="best location">
+                  <h4>03</h4>
+              </div>
+              <div class="facilities__title">
+                  <h5 class="text__subtitle">Best Locations</h5>
+                  <p class="text__paragraph text--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+              </div>
           </div>
-
-          <div class="swiper-slide core-features__slide">            
-            <img src="./img/Home/04.svg" alt="01" class="core-imgs-number">
-            <div class="core-features__slide-info">
-              <img src="./img/Home/cancelation.svg" alt="" class="core-imgs-icon">            
-              <h4 class="text__subtitle--small text--lightblack core__subtitle">
-                Free Cancellation
-              </h4>
-              <p class="text__card-paragraph text--gray core__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
-              </p>
-            </div>
+          <div class="swiper-slide"> 
+              <div class="facilities__number">
+                  <img src="./img/Home/cancelation.svg" alt="free cancelation">
+                  <h4>04</h4>
+              </div>
+              <div class="facilities__title">
+                  <h5 class="text__subtitle">Free Cancellation</h5>
+                  <p class="text__paragraph text--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+              </div>
           </div>
-
-          <div class="swiper-slide core-features__slide">            
-            <img src="./img/Home/05.svg" alt="01" class="core-imgs-number">
-            <div class="core-features__slide-info">
-              <img src="./img/Home/payment.svg" alt="" class="core-imgs-icon">            
-              <h4 class="text__subtitle--small text--lightblack core__subtitle">
-                Payment Options
-              </h4>
-              <p class="text__card-paragraph text--gray core__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
-              </p>
-            </div>
+          <div class="swiper-slide"> 
+              <div class="facilities__number">
+                  <img src="./img/Home/payment.svg" alt="payments options">
+                  <h4>05</h4>
+              </div>
+              <div class="facilities__title">
+                  <h5 class="text__subtitle">Payment Options</h5>
+                  <p class="text__paragraph text--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+              </div>
           </div>
-
-          <div class="swiper-slide core-features__slide">            
-            <img src="./img/Home/06.svg" alt="01" class="core-imgs-number">
-            <div class="core-features__slide-info">
-              <img src="./img/Home/offers.svg" alt="" class="core-imgs-icon">            
-              <h4 class="text__subtitle--small text--lightblack core__subtitle">
-                Special Offers
-              </h4>
-              <p class="text__card-paragraph text--gray core__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..
-              </p>
-            </div>
-          </div>          
+          <div class="swiper-slide"> 
+              <div class="facilities__number">
+                  <img src="./img/Home/offers.svg" alt="special offers">
+                  <h4>06</h4>
+              </div>
+              <div class="facilities__title">
+                  <h5 class="text__subtitle">Special Offers</h5>
+                  <p class="text__paragraph text--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+              </div>
+          </div>
         </div>
-        <div class="swiper-pagination--core-features"></div>
+        <div class="swiper-pagination__facilities"></div>
       </div>
     </section>
     <!--Sección Menu-->

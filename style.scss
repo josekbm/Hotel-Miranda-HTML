@@ -1,16 +1,16 @@
 @use "./styles/header/header";
-@use "./styles/text/text";
 @use "./styles/home/home";
-@use "./styles/button/button";
 @use "./styles/home/about-us";
 @use "./styles/home/rooms";
 @use "./styles/home/roomcard";
-@use "./styles/home/video";
 @use "./styles/home/roomdetail";
-@use "./styles/swiper/swiper";
+@use "./styles/home/video";
 @use "./styles/home/facilities";
 @use "./styles/home/menu";
 @use "./styles/home/logros";
+@use "./styles/swiper/swiper";
+@use "./styles/button/button";
+@use "./styles/text/text";
 @use "./styles/footer/footer";
 html, * { 
     box-sizing: border-box;

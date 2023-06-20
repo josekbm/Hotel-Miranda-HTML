@@ -1,4 +1,4 @@
-.header{
+.header {
     height: 70px;
     display: flex;
     flex-direction: row;
@@ -6,11 +6,11 @@
     align-items: center;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
     background: #FFFFFF;
-    z-index: 100;
+    z-index: 10;
     width: 100%;
 }
 
-.nav{
+.nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,28 +19,27 @@
     justify-content: space-between;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
     padding-left: 5%;
-    padding-right: 6.9%;
-    
+    padding-right: 6.9%;    
 }
 
-.nav__list{
+.nav__list {
     display:none;
     list-style: none;
 }
 
 //nav left-items
-.nav--left{
+.nav--left {
     display: flex;
     flex-direction: row;
     width: 50%;
     align-items: center;
 }
 
-.nav__burguer:hover{
+.nav__burguer:hover {
     scale:1.1
 }
 
-.nav__logo{
+.nav__logo {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,11 +47,11 @@
     gap: 13%;
 }
 
-.nav__logo:hover{
+.nav__logo:hover {
     cursor: pointer;
 }
 
-.nav__logo-H{
+.nav__logo-H {
     width: 35.96px;
     height: 36px;
     box-shadow: 0px 14px 24px rgba(139, 139, 139, 0.25);
@@ -60,14 +59,14 @@
 }
 
 
-.nav__funcionalities{
+.nav__funcionalities {
     width: 20%;
     display: flex;
     justify-content: flex-end;
     gap: 30%
 }
 
-.nav__burger{
+.nav__burger {
     background-image: url("../../img/Header/burguer-menu.svg");
     background-repeat: no-repeat;
     width: 20px;
@@ -100,8 +99,7 @@
     padding-left: 5.3%;
     gap: 1.5rem;
     padding-bottom: 1.7rem; 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
-    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);    
 }
 
 .nav__link{
@@ -112,6 +110,4 @@
     line-height: 17px;
     color: #222222;
     text-decoration: none;
-   
-
 }
