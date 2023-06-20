@@ -7,7 +7,7 @@
   align-items: center;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
   background: #FFFFFF;
-  z-index: 10;
+  z-index: 100;
   width: 100%;
 }
 
@@ -894,6 +894,371 @@
 .room-features__related {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.swiper--handpicked-rooms {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.swiper-slide--handpicked-rooms {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: aqua;
+  font-size: 0;
+}
+
+.swiper--core-features {
+  display: flex;
+  justify-content: center;
+  max-width: 375px;
+}
+
+.swiper__core-features--dark {
+  max-width: 375px;
+}
+
+.swiper--menu {
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.swiper-slide--menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.swiper--menu__photo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  max-width: 335px;
+}
+
+.swiper--menu__photo-wrapper {
+  max-width: 370px;
+  max-height: 370px;
+  height: auto;
+  margin-bottom: 3rem;
+}
+
+.swiper-pagination-bullets-active {
+  background: #BEAD8E;
+  color: #FFFFFF;
+}
+
+.swiper__fun-facts__slider {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  max-width: 570px;
+}
+
+.swiper__rooms {
+  max-width: 500px;
+  width: 100%;
+}
+
+.swiper__rooms-wrapper {
+  margin-bottom: 2rem;
+}
+
+.swiper__popular-rooms {
+  justify-content: center;
+  display: flex;
+  max-width: 600px;
+}
+
+.swiper-slide--popular-rooms {
+  display: flex;
+  justify-content: center;
+}
+
+.facilities {
+  padding-top: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facilities--dark {
+  background: #222222;
+  padding-bottom: 4.5rem;
+}
+
+.facilities__pretitle {
+  margin-bottom: 1.5rem;
+  padding-left: 5.3%;
+  padding-right: 5.3%;
+}
+
+.facilities__title {
+  margin-bottom: 2rem;
+  padding-left: 5.3%;
+  padding-right: 5.3%;
+}
+
+.core-features__slider {
+  padding-bottom: 2.688rem;
+  max-width: 375px;
+}
+
+.core-features__slide {
+  height: 370px;
+  position: relative;
+  padding-left: 0.982rem;
+  width: 100%;
+}
+
+.core-features__slide--dark {
+  background-color: #292929;
+}
+
+.core-imgs-number {
+  position: absolute;
+  right: 2rem;
+}
+
+.core-imgs-number--dark {
+  top: 2em;
+  right: 1.5em;
+}
+
+.core-imgs-icon {
+  margin-top: 5rem;
+  margin-bottom: 2.375rem;
+}
+
+.core__subtitle {
+  margin-bottom: 1.75rem;
+}
+
+.menu {
+  padding-left: 5.3%;
+  padding-right: 5.3%;
+  padding-bottom: 5.68rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu__text {
+  max-width: 570px;
+}
+
+.menu__donut {
+  position: absolute;
+  top: 55px;
+  right: 0;
+}
+
+.menu__pretitle {
+  margin-top: 11rem;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.menu__title {
+  margin-bottom: 2rem;
+}
+
+.menu__slider {
+  display: flex;
+  flex-direction: column;
+  max-width: 570px;
+  gap: 1rem;
+}
+
+.menu__slide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu__slide-info {
+  width: 60%;
+}
+
+.menu__slide-title {
+  margin-bottom: 0.75rem;
+}
+
+.menu__slide-img {
+  width: 120px;
+  height: 120px;
+  margin-right: 1.875rem;
+  background: #DBDBDB;
+}
+
+.menu__slide-img--eggs {
+  background-image: url("../../img/Home/eggs.jpg");
+  background-size: cover;
+}
+
+.menu__slide-img--tea {
+  background-image: url("../../img/Home/tea.jpg");
+  background-size: cover;
+}
+
+.menu__slide-img--oatmeal {
+  background-image: url("../../img/Home/oatmeal.jpg");
+  background-size: cover;
+}
+
+.menu__slide-img--fruit {
+  background-image: url("../../img/Home/fruit.jpg");
+  background-size: cover;
+}
+
+.menu__slide-img--marmalade {
+  background-image: url("../../img/Home/marmalade.jpg");
+  background-size: cover;
+}
+
+.menu__slide-img--cheese {
+  background-image: url("../../img/Home/cheese.jpg");
+  background-size: cover;
+}
+
+.menu__buttons {
+  max-width: 570px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 4.5rem;
+}
+
+.menu__button {
+  width: 36px;
+  height: 36px;
+}
+
+.menu__photo-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.menu__photo-slide--img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.logros {
+  padding-bottom: 48px;
+}
+
+.logros__container {
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  gap: 3.75rem;
+}
+
+.logros__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__container {
+  background-image: url("../../img/Footer/fondo.svg");
+  padding-left: 5.3%;
+  padding-right: 5.3%;
+  padding-top: 32px;
+  padding-bottom: 34px;
+}
+
+.footer__logo {
+  margin-bottom: 48px;
+}
+
+.footer__brand-paragraph {
+  margin-bottom: 32px;
+  max-width: 500px;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  margin-bottom: 40px;
+}
+
+.footer__services-title {
+  margin-bottom: 24px;
+}
+
+.footer__list-container {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  margin-bottom: 32px;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__contact-title {
+  margin-bottom: 34px;
+}
+
+.footer__contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.footer__contact-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 22px;
+}
+
+.footer__legal {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 5.3%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: #F8F8F8;
+  justify-content: center;
+  text-align: start;
 }
 
 html, * {
