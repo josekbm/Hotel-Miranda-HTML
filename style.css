@@ -276,18 +276,18 @@
 
 .handpicked-rooms {
   position: relative;
-  top: -2rem;
+  top: -32px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .handpicked-rooms__pretitle {
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 
 .handpicked-rooms__title {
-  margin-bottom: 2.75rem;
+  margin-bottom: 44px;
 }
 
 .room-card {
@@ -811,6 +811,26 @@
 
 .swiper__core-features .swiper-pagination-bullet {
   background-color: #BEAD8E;
+}
+
+.swiper__rooms {
+  max-width: 500px;
+  width: 100%;
+}
+
+.swiper__rooms-wrapper {
+  margin-bottom: 32px;
+}
+
+.swiper__popular-rooms {
+  justify-content: center;
+  display: flex;
+  max-width: 600px;
+}
+
+.swiper-slide--popular-rooms {
+  display: flex;
+  justify-content: center;
 }
 
 .button {
@@ -1396,6 +1416,53 @@
 
 .swiper__fun-facts__slider .swiper-pagination-bullet {
   background-color: #BEAD8E;
+}
+
+.rooms {
+  height: 100%;
+}
+.rooms .rooms__contenedor {
+  padding-left: 5.3%;
+  padding-right: 5.3%;
+  padding-top: 48px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.rooms .rooms__contenedor .rooms__slide {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+.rooms .rooms__contenedor .swiper-bullets--rooms {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+  background-color: transparent;
+  padding: 5px 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 0;
+  color: #222222;
+}
+.rooms .rooms__contenedor .swiper-bullets--rooms:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+.rooms .rooms__contenedor .rooms__slider-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 0;
+  width: 100%;
 }
 
 html, * {

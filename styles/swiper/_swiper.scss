@@ -55,4 +55,26 @@
     
 }
 
+.swiper__rooms{
+    max-width: 500px;
+    width: 100%;
+}
 
+
+.swiper__rooms-wrapper{
+    margin-bottom: 32px;
+}
+
+.swiper__popular-rooms{
+
+    justify-content: center;
+    display: flex;
+    max-width: 600px;
+}
+
+
+.swiper-slide--popular-rooms{
+    display: flex;
+    justify-content: center;
+
+}

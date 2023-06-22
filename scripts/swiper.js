@@ -1,6 +1,8 @@
 const menuPrevButton = document.querySelector('.menu__button-prev');
 const menuNextButton = document.querySelector('.menu__button-next');
 
+
+
 const swiperMenu = new Swiper('.swiper--menu', {
   direction: "horizontal",
   loop: true,
@@ -59,3 +61,4 @@ const swiperCounter = new Swiper('.swiper__fun-facts__slider', {
     el: '.swiper-pagination--fun-facts',
   },
 })
+
