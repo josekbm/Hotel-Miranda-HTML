@@ -6,7 +6,7 @@
 
 }
 
-.room-detail__container{
+.room-detail__contenedor {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -117,15 +117,15 @@
 
 
 .room-features__review{
-padding-top: 3rem;
-padding-bottom: 2.5rem;
-padding-left: 1.5rem;
-padding-right: 1.5rem;
-display: flex;
-flex-direction: column;
-align-items: center;
-max-width: 370;
-    }
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370;
+}
 
 .room-features__review-img{
     width: 150px;

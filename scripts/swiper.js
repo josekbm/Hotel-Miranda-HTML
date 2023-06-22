@@ -1,6 +1,9 @@
 const menuPrevButton = document.querySelector('.menu__button-prev');
 const menuNextButton = document.querySelector('.menu__button-next');
 
+const relatedRoomsPrev= document.querySelector('.related-rooms__button-prev');
+const relatedRoomsNext = document.querySelector('.related-rooms__button-next');
+
 
 
 const swiperMenu = new Swiper('.swiper--menu', {
@@ -62,3 +65,15 @@ const swiperCounter = new Swiper('.swiper__fun-facts__slider', {
   },
 })
 
+const swiperRelatedRooms = new Swiper('.swiper__related-rooms', {
+  direction: "horizontal",
+  loop: true,
+  slidesPerView: 1,
+  
+  navigation: {
+  nextEl: relatedRoomsNext,
+  prevEl: relatedRoomsPrev, 
+ },
+
+  
+});
