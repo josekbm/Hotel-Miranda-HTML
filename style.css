@@ -834,7 +834,7 @@
 }
 
 .button {
-  font-family: Archivo;
+  font-family: "Archivo";
   font-size: 14px;
   font-weight: 700;
   line-height: 15px;
@@ -1576,6 +1576,10 @@
 
 .offers__button {
   margin-top: 8px;
+}
+
+.swiper-wrapper__popular {
+  max-width: 375px;
 }
 
 html, * {

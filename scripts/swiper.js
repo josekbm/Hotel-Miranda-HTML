@@ -4,6 +4,8 @@ const menuNextButton = document.querySelector('.menu__button-next');
 const relatedRoomsPrev= document.querySelector('.related-rooms__button-prev');
 const relatedRoomsNext = document.querySelector('.related-rooms__button-next');
 
+const popularRoomsPrev= document.querySelector('.popular-rooms__button-prev');
+const popularRoomsNext = document.querySelector('.popular-rooms__button-next');
 
 
 const swiperMenu = new Swiper('.swiper--menu', {
@@ -65,7 +67,7 @@ const swiperCounter = new Swiper('.swiper__fun-facts__slider', {
   },
 })
 
-const swiperRelatedRooms = new Swiper('.swiper__related-rooms', {
+const swiperRelatedRooms = new Swiper('.room-features__swiper', {
   direction: "horizontal",
   loop: true,
   slidesPerView: 1,
@@ -74,6 +76,19 @@ const swiperRelatedRooms = new Swiper('.swiper__related-rooms', {
   nextEl: relatedRoomsNext,
   prevEl: relatedRoomsPrev, 
  },
+
+  
+});
+
+const swiperPopularRooms = new Swiper('.swiper__popular-rooms', {
+  direction: "horizontal",
+  loop: true,
+  slidesPerView: 1,
+  
+  navigation: {
+    nextEl: popularRoomsNext,
+    prevEl: popularRoomsPrev, 
+  },
 
   
 });
