@@ -26,14 +26,36 @@ const swiperMenuPhoto = new Swiper('.swiper--menu__photo', {
 
   
 });
-const swiper = new Swiper('.swiper_facilities', {
+const swiper = new Swiper('.swiper__core-features', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
   
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination__facilities',
+    el: '.swiper-pagination__core-features',
   },
 
 });
+
+const swiperCore = new Swiper('.swiper__core-features--dark', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination__core-features--dark',
+  },
+})
+
+const swiperCounter = new Swiper('.swiper__fun-facts__slider', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination--fun-facts',
+  },
+})

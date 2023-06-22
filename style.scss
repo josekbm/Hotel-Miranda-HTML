@@ -5,13 +5,16 @@
 @use "./styles/home/roomcard";
 @use "./styles/home/roomdetail";
 @use "./styles/home/video";
-@use "./styles/home/facilities";
 @use "./styles/home/menu";
 @use "./styles/home/logros";
 @use "./styles/swiper/swiper";
 @use "./styles/button/button";
 @use "./styles/text/text";
 @use "./styles/footer/footer";
+@use "./styles/titulopagina/titulopagina";
+@use "./styles/about/introduccion";
+@use "./styles/home/core-features";
+@use "./styles/about/counter";
 html, * { 
     box-sizing: border-box;
     margin: 0;

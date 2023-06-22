@@ -1,0 +1,43 @@
+.counter__contenedor {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.counter__contenedor-pretitle {
+   margin-top: 60px;
+   margin-bottom: 24px; 
+}
+.counter__contenedor-title {
+    margin-bottom: 36px;
+}
+.counter__contenedor--facts {
+    .facts{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 20px;
+        margin-right: 20px;
+        padding-left: 20px;
+        margin-bottom: 41.5px;
+    }
+}
+
+.fun-facts__slider {
+    max-width: 570px;
+    max-height: 440px;
+    height: auto;
+    margin-bottom: 48px;    
+    .fun-facts__slide{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%
+    }
+    
+}  
+.swiper__fun-facts__slider {
+    
+    .swiper-pagination-bullet {
+        background-color: #BEAD8E;
+        
+    }
+}
