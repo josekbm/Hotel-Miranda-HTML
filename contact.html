@@ -8,6 +8,7 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
   />
+  <script async src='https://www.google.com/recaptcha/api.js?hl=es'></script>
   <title>Hotel Miranda | Contact</title>
 </head>
 <body>
@@ -135,8 +136,10 @@
         <img src="./img/Contact/message.svg" alt="msg-icon" class="contact-form__input-icon">
         <input type="text" class="contact-form__input contact-form__input--msg" placeholder="Enter message">
       </div>
+      <span class="msg-error error"></span>
+      <div id="recaptcha" class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
 
-      <button class="button button--golden button--send">SEND</button>
+      <button class="button button--golden button--send boton-formulario">SEND</button>
       
     </form>
   </section>
