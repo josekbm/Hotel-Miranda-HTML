@@ -1669,7 +1669,7 @@
   border: none;
   width: 100%;
 }
-.contact-form .contact-form__form .contact-form__inputs .contact-form__message {
+.contact-form .contact-form__form .contact-form__message {
   margin-bottom: 36px;
   background: #F8F8F8;
   width: 100%;
@@ -1683,7 +1683,7 @@
   align-items: flex-start;
   gap: 16px;
 }
-.contact-form .contact-form__form .contact-form__inputs .contact-form__message .contact-form__input--msg {
+.contact-form .contact-form__form .contact-form__message .contact-form__input--msg {
   width: 100%;
   padding-bottom: 30%;
   border: none;

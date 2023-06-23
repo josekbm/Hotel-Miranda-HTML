@@ -74,29 +74,28 @@
                     border: none;
                     width: 100%;
                 }  
-            }
-            .contact-form__message{
-                margin-bottom: 36px;
-                background: #F8F8F8;
-                width: 100%;
-                height: 175px;
-                padding-left: 20px;
-                padding-right: 20px;
-                padding-top: 24px;
-                padding-bottom: 24px;
-                display: flex;
-                flex-direction: row;
-                align-items: flex-start;
-                gap: 16px;
-                .contact-form__input--msg{
-                    width: 100%;
-                    padding-bottom: 30%;
-                    border: none;
-                    display: flex;
-                }
-            } 
-              
+            }              
         }
+        .contact-form__message{
+            margin-bottom: 36px;
+            background: #F8F8F8;
+            width: 100%;
+            height: 175px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 16px;
+                .contact-form__input--msg{
+                width: 100%;
+                padding-bottom: 30%;
+                border: none;
+                display: flex;
+            }
+        } 
     }
   
 }
