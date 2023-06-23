@@ -274,7 +274,7 @@
   background-size: cover;
 }
 
-.handpicked-rooms {
+.handpicked {
   position: relative;
   top: -32px;
   display: flex;
@@ -282,11 +282,11 @@
   align-items: center;
 }
 
-.handpicked-rooms__pretitle {
+.handpicked__pretitle {
   margin-bottom: 24px;
 }
 
-.handpicked-rooms__title {
+.handpicked__title {
   margin-bottom: 44px;
 }
 
@@ -792,7 +792,7 @@
   max-width: 370px;
   max-height: 370px;
   height: auto;
-  margin-bottom: 348px;
+  margin-bottom: 15px;
 }
 
 .swiper--core-features {

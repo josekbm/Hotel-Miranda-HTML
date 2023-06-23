@@ -7,6 +7,21 @@ const relatedRoomsNext = document.querySelector('.related-rooms__button-next');
 const popularRoomsPrev= document.querySelector('.popular-rooms__button-prev');
 const popularRoomsNext = document.querySelector('.popular-rooms__button-next');
 
+const handpickerRoomsPrev= document.querySelector('.handpicked-rooms__button-prev');
+const handpickerRoomsNext = document.querySelector('.handpicked-rooms__button-next');
+
+const swiperHandpicked = new Swiper('.swiper__handpicked--rooms', {
+  direction: "horizontal",
+  loop: true,
+  slidesPerView: 1,
+
+  navigation: {
+    nextEl: handpickerRoomsNext,
+    prevEl: handpickerRoomsPrev, 
+  },
+
+  
+});
 
 const swiperMenu = new Swiper('.swiper--menu', {
   direction: "horizontal",
