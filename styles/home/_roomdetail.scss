@@ -1,5 +1,5 @@
 .room-detail{
-    padding: 3rem 5.3%;
+    padding: 48px 5.3%;
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -14,12 +14,12 @@
 
 }
 .room-detail__card{
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
     width: 100%;
     max-width: 600px;
 }
 .room-detail__price{
-    margin-bottom:1rem;
+    margin-bottom:16px;
 }
 
 .room-detail__img{
@@ -43,13 +43,13 @@
 }
 
 .room-detail__form-title{
-    margin-bottom: 2.25rem;
+    margin-bottom: 36px;
 }
 
 .room-detail__form{
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 20px;
 }
 
 .room-detail__input-container{
@@ -58,19 +58,19 @@
 }
 
 .room-detail__input-label{
-    margin-bottom: 0.813rem;
+    margin-bottom: 0.8148px;
 }
 
 .room-detail__input{
     border: none;
     background-color: #F8F8F8;
-    padding: 1.5rem 2rem;
+    padding: 24px 32px;
 }
 
 .room-detail__input::-webkit-calendar-picker-indicator{
     filter: invert(48%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(96%) contrast(98%);
-    height: 1rem;
-    width: 1rem;
+    height: 16px;
+    width: 16px;
 }
 
 .room-features{
@@ -90,23 +90,23 @@
 }
 
 .room-features__paragraph{
-    margin-bottom:3.75rem ;
+    margin-bottom:60px ;
 }
 
 .room-features__amenities{
-    margin-bottom: 2.75rem;
+    margin-bottom: 44px;
 }
 
 
 .room-features__amenities-title{
-    margin-bottom: 0.825rem;
+    margin-bottom: 13.2px;
 }
 
 .room-features__line{
     background-color: #F1F1F1;
     height: 1px;
     width: 100%;
-    margin-bottom: 2.25rem;
+    margin-bottom: 36px;
 }
 
 .room-features__amenities{
@@ -117,10 +117,10 @@
 
 
 .room-features__review{
-    padding-top: 3rem;
-    padding-bottom: 2.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-top: 48px;
+    padding-bottom: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,7 +133,7 @@
     border-radius: 50%;
     background-color:#D5D5D5;
     position: relative;
-    margin-bottom: 2.375rem;
+    margin-bottom: 38px;
 }
 
 .room-features__review-img--img{
@@ -146,19 +146,19 @@
 }
 
 .room-features__review-title{
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .room-features__review-subtitle{
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .room-features__cancelation{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .room-features__related{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }

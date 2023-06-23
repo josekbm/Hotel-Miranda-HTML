@@ -28,9 +28,9 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    padding: 1rem 1.5rem;
+    padding: 16px 24px;
     justify-content: space-around;
-    top: -1rem;
+    top: -16px;
     min-width: 256px;
     min-height: 40px;
 }
@@ -59,7 +59,7 @@
 
 .room-card__info{
     background-color: #FFFFFF;
-    padding: 1.18rem 1.5rem;
+    padding: 18.88px 24px;
     position: relative;
     top: -20px;
     margin: 0 6.4%;
@@ -68,16 +68,16 @@
 
 .rom-card__info--rooms{
     top: 0;
-    padding-top: 3rem;
-    padding-bottom: 1.75rem;
+    padding-top: 48px;
+    padding-bottom: 28px;
 }
 
 .room-card__title{
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .rom-card__paragraph{
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .room-card__price{
@@ -99,7 +99,7 @@ font-weight: 700;
 .room-card__price-container{
     display: flex;
     flex-direction: row;
-    gap: 1.25rem;
+    gap: 20px;
     justify-content: center;
 }
 
