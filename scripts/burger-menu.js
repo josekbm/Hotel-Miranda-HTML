@@ -18,7 +18,7 @@ burger.addEventListener('click', function () {
 navLogo.addEventListener('click', function (){
     window.location.href = "/Hotel-Miranda-HTML/";
 })
-/*
+
 window.addEventListener('scroll', function() {
     const scrollPosition = window.scrollY || document.documentElement.scrollTop;
     const windowWidth = window.innerWidth;
@@ -38,4 +38,4 @@ window.addEventListener('mousemove', function(event) {
     if (windowWidth>= 1000 && mouseY < 150) {
         header.style.visibility = "visible"
     } 
-});*/
+});
