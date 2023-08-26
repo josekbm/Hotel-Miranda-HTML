@@ -14,6 +14,8 @@ const swiperHandpicked = new Swiper('.swiper__handpicked--rooms', {
   direction: "horizontal",
   loop: true,
   slidesPerView: 1,
+  centeredSlide: true,
+  spaceBetween: 10,
 
   navigation: {
     nextEl: handpickerRoomsNext,
@@ -32,6 +34,15 @@ const swiperMenu = new Swiper('.swiper--menu', {
     nextEl: menuNextButton,
     prevEl: menuPrevButton, 
   },
+  breakpoints: {
+    1000: {
+      slidesPerView: 2,
+      spaceBetween: 50
+    },
+    0:{
+      slidesPerView:1
+    },
+  }
 
   
 });
@@ -45,6 +56,15 @@ const swiperMenuPhoto = new Swiper('.swiper--menu__photo', {
     el: '.swiper-pagination--menu__photo',
     clickable: true,
   },
+  breakpoints: {
+    1000: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    0:{
+      slidesPerView:1
+    },
+  }
 
   
 });
@@ -57,6 +77,19 @@ const swiper = new Swiper('.swiper__core-features', {
   pagination: {
     el: '.swiper-pagination__core-features',
   },
+  breakpoints: {
+    1000: {
+      slidesPerView: 3,
+      slidesPerColumn: 3,
+      grid:{
+        rows: 2,
+        fill: 'row'
+      }
+    },
+    0:{
+      slidesPerView:1
+    },
+  }
 
 });
 

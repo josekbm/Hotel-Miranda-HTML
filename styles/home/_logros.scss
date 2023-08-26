@@ -1,20 +1,33 @@
-.logros {    
-    padding-bottom: 48px;    
+.logros {
+  padding-bottom: 48px;
 }
 .logros__container {
-    background-color: #222222;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    gap: 60px;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  gap: 60px;
 }
 
 .logros__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+@media (min-width: 1000px) {
+  .logros {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
+    justify-content: center;
+    padding-bottom: 120px;
+  }
+  .logros__container {
+    flex-direction: row;
+    width: 80%;
+    min-width: 900px;
+    max-width: 1170px;
+  }
 }
