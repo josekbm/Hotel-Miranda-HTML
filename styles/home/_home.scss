@@ -1,66 +1,125 @@
 .intro {
-    background-color:#333;
-    padding-top: 70px;
+  background-color: #333;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .intro__perfect-base {
-    padding-left: 5.3%;
-    padding-right: 8%;
-    padding-top: 75px;  
-    padding-bottom: 76px;
+  padding-left: 5.3%;
+  padding-right: 8%;
+  padding-top: 75px;
+  padding-bottom: 76px;
+  backdrop-filter: blur(3px);
+  backdrop-filter: brightness(80%);
+}
+.intro__perfect-base--container {
+  //background-image: url("../../../assets/home/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg");
+  background-size: cover;
+  background-position: 10%;
+  background-repeat: no-repeat;
+  height: 60%;
 }
 .intro__pretitle {
-    margin-bottom: 40px;
-    margin-right: 118px; 
+  margin-bottom: 40px;
+  margin-right: 118px;
 }
 .intro__title {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .button__intro {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 .intro__availability {
-    padding: 36px 5.3%;
-    width: 100%;
-    background: #222222;
-    gap: 42px;
-    display: flex;
-    flex-direction: column;
+  padding: 36px 5.3%;
+  width: 100%;
+  background: #222222;
+  gap: 42px;
+  display: flex;
+  flex-direction: column;
 }
-  
+
 .intro__calendar {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-  
+
 .intro__calendar-item {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
-  
-  
+
 .intro__calendar-input {
-    max-width: 335px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #bead8e;
-    font-family: "Roboto";
+  max-width: 335px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #bead8e;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 14px;
+  color: #686868;
+}
+
+.intro__calendar-input::-webkit-calendar-picker-indicator {
+  order: -1;
+  filter: invert(0.5) sepia(1);
+  width: 24px;
+  height: 24px;
+  margin-right: 8.8px;
+}
+
+@media (min-width: 1000px) {
+  .intro {
+    height: 100vh;
+  }
+  .intro__perfect-base--container {
+    height: 75%;
+  }
+  .intro__perfect-base {
+    padding-top: 170px;
+    padding-bottom: 110px;
+    padding-left: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .intro__buttons {
+    flex-direction: row;
+  }
+  .intro__title {
+    font-family: "Old Standard TT";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    padding-bottom: 14px;
-    color: #686868;
-}
-  
-.intro__calendar-input::-webkit-calendar-picker-indicator {
-    order: -1;
-    filter: invert(0.5) sepia(1);
-    width: 24px;
-    height: 24px;
-    margin-right: 8.8px;
+    font-size: 100px;
+    line-height: 90px;
+    max-width: 600px;
+    margin-bottom: 48px;
+  }
+  .intro__availability {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    padding-left: 18%;
+    padding-right: 18%;
+    gap: 10%;
+  }
+
+  .intro__calendar {
+    flex-direction: row;
+    gap: 32px;
+    width: 70%;
+  }
+  .intro__calendar-item {
+    width: 50%;
+  }
 }

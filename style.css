@@ -179,6 +179,9 @@
 .intro {
   background-color: #333;
   padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .intro__perfect-base {
@@ -186,6 +189,17 @@
   padding-right: 8%;
   padding-top: 75px;
   padding-bottom: 76px;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: brightness(80%);
+          backdrop-filter: brightness(80%);
+}
+
+.intro__perfect-base--container {
+  background-size: cover;
+  background-position: 10%;
+  background-repeat: no-repeat;
+  height: 60%;
 }
 
 .intro__pretitle {
@@ -246,6 +260,52 @@
   margin-right: 8.8px;
 }
 
+@media (min-width: 1000px) {
+  .intro {
+    height: 100vh;
+  }
+  .intro__perfect-base--container {
+    height: 75%;
+  }
+  .intro__perfect-base {
+    padding-top: 170px;
+    padding-bottom: 110px;
+    padding-left: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .intro__buttons {
+    flex-direction: row;
+  }
+  .intro__title {
+    font-family: "Old Standard TT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 90px;
+    max-width: 600px;
+    margin-bottom: 48px;
+  }
+  .intro__availability {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    padding-left: 18%;
+    padding-right: 18%;
+    gap: 10%;
+  }
+  .intro__calendar {
+    flex-direction: row;
+    gap: 32px;
+    width: 70%;
+  }
+  .intro__calendar-item {
+    width: 50%;
+  }
+}
 .about-us {
   background-color: #fff;
   margin-top: 60px;
@@ -1255,6 +1315,31 @@
   text-align: start;
 }
 
+@media (min-width: 1000px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer__container {
+    align-self: center;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4%;
+    width: 80%;
+    min-width: 950px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 120px;
+  }
+  .footer__legal {
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 .page-title {
   background-color: #333;
   padding-top: 70px;
