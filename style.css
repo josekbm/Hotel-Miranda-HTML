@@ -502,7 +502,7 @@
 
 .room-card__img--full {
   position: relative;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   height: 244px;
   display: flex;
   justify-content: center;
@@ -512,7 +512,7 @@
 
 .room-card__features-bar {
   position: absolute;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 8px 16px rgba(138, 138, 138, 0.05);
   align-items: center;
   display: flex;
@@ -532,7 +532,7 @@
 
 .room-card__img {
   position: relative;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   height: 244px;
   display: flex;
   justify-content: center;
@@ -548,7 +548,7 @@
 }
 
 .room-card__info {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 18.88px 24px;
   position: relative;
   top: -20px;
@@ -631,7 +631,7 @@
     justify-content: space-between;
   }
   .rom-card__info--rooms {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 1.18rem 1.5rem;
     position: relative;
     top: -20px;
@@ -656,6 +656,7 @@
   }
   .room-card__button--home {
     max-width: 1000px;
+    left: 17%;
   }
   .room-card__info-name {
     text-align: start;
@@ -1470,11 +1471,11 @@
 }
 
 .text--lightgray {
-  color: #C2C2C2;
+  color: #c2c2c2;
 }
 
 .text--booking-gray {
-  color: #BDBDBD;
+  color: #bdbdbd;
 }
 
 .text--black {
@@ -1490,11 +1491,11 @@
 }
 
 .text--gold {
-  color: #BEAD8E;
+  color: #bead8e;
 }
 
 .text--red {
-  color: #DE5777;
+  color: #de5777;
 }
 
 .text--center {
@@ -1505,6 +1506,29 @@
   text-align: start;
 }
 
+@media (min-width: 1000px) {
+  .text__pretitle {
+    font-size: 14px;
+  }
+  .text__title {
+    font-family: "Old Standard TT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 90px;
+  }
+  .text__subtitle--small {
+    font-size: 30px;
+  }
+  .text__subtitle--big {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 89px;
+  }
+  .text__offer-card {
+    font-size: 75px;
+  }
+}
 .footer__container {
   background-image: url("./img/Footer/fondo.svg");
   padding-left: 5.3%;
