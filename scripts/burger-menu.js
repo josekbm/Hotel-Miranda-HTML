@@ -16,7 +16,7 @@ burger.addEventListener('click', function () {
 
 
 navLogo.addEventListener('click', function (){
-    window.location.href = "/Hotel-Miranda-HTML/";
+    window.location.href = "../";
 })
 
 window.addEventListener('scroll', function() {

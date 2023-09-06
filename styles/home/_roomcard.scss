@@ -9,23 +9,32 @@
   align-items: center;
 }
 
-.room-card--rooms {
-  margin: 0;
+.room-card--popular {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-height: 600px;
+  align-items: center;
 }
-
 .room-card:hover {
   scale: 1.1;
   cursor: pointer;
+}
+.room-card--rooms {
+  margin: 0;
 }
 
 .room-card__img--full {
   position: relative;
   background-color: #e5e5e5;
   height: 244px;
+  width: 100%;
   display: flex;
   justify-content: center;
   margin: 0 6.4%;
-  width: 100%;
 }
 
 .room-card__features-bar {
@@ -55,20 +64,24 @@
   display: flex;
   justify-content: center;
   margin: 0 6.4%;
-  object-fit: cover;
+}
+.room-card__img--rooms {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .room-card__img--img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 .room-card__info {
   background-color: #ffffff;
-  padding: 18.88px 24px;
+  padding: 19px 24px;
   position: relative;
   top: -20px;
-  margin: 0 6.4%;
 }
 
 .rom-card__info--rooms {
@@ -106,6 +119,11 @@
   flex-direction: row;
   gap: 20px;
   justify-content: center;
+  & a {
+    text-decoration: none;
+    color: #bdbdbd;
+    cursor: pointer;
+  }
 }
 
 .room-card__slider {
@@ -118,14 +136,17 @@
   width: 100%;
   justify-content: space-between;
   padding: 0 2%;
+  left: 17%;
   z-index: 1;
-  top: 100px;
+  top: 150px;
   max-width: 600px;
 }
 
 .room-card__button--home {
   max-width: 680px;
+  display: none;
 }
+
 @media (min-width: 1000px) {
   .room-card {
     max-width: 800px;
@@ -148,7 +169,7 @@
 
   .rom-card__info--rooms {
     background-color: #ffffff;
-    padding: 1.18rem 1.5rem;
+    padding: 19px 24px;
     position: relative;
     top: -20px;
     display: inline;
@@ -161,6 +182,11 @@
     }
     .room-card__price-container {
       flex-direction: row;
+      & a {
+        text-decoration: none;
+        color: #bdbdbd;
+        cursor: pointer;
+      }
     }
   }
   .room-card__features-bar {
@@ -169,10 +195,10 @@
   }
   .room-card__buttons {
     top: 200px;
+    display: none;
   }
   .room-card__button--home {
     max-width: 1000px;
-    left: 17%;
   }
 
   .room-card__info-name {
@@ -189,6 +215,12 @@
     display: flex;
     flex-direction: column;
     text-align: end;
+    & a {
+      text-decoration: none;
+      color: #bdbdbd;
+      cursor: pointer;
+    }
+  
   }
 
   .room-card__price--small {
@@ -199,9 +231,9 @@
     font-size: 15px;
   }
   .rooms__slide--rooms {
-    display: grid;
+    display: grid !important;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 3rem;
+    gap: 48px;
   }
 
   .room-card__img--rooms {

@@ -12,6 +12,9 @@ const handpickerRoomsNext = document.querySelector('.handpicked-rooms__button-ne
 
 const swiperHandpicked = new Swiper('.swiper__handpicked--rooms', {
   direction: "horizontal",
+  autoplay: {
+    delay: 5000,
+  },
   loop: true,
   slidesPerView: 1,
   centeredSlide: true,
@@ -28,6 +31,9 @@ const swiperHandpicked = new Swiper('.swiper__handpicked--rooms', {
 const swiperMenu = new Swiper('.swiper--menu', {
   direction: "horizontal",
   loop: true,
+  autoplay: {
+    delay: 5000,
+  },
   slidesPerView: 1,
 
   navigation: {
@@ -102,6 +108,19 @@ const swiperCore = new Swiper('.swiper__core-features--dark', {
   pagination: {
     el: '.swiper-pagination__core-features--dark',
   },
+  breakpoints: {
+    1000: {
+      slidesPerView: 3,
+      slidesPerColumn: 3,
+      grid:{
+        rows: 2,
+        fill: 'row'
+      }
+    },
+    0:{
+      slidesPerView:1
+    },
+  }
 })
 
 const swiperCounter = new Swiper('.swiper__fun-facts__slider', {
@@ -112,6 +131,12 @@ const swiperCounter = new Swiper('.swiper__fun-facts__slider', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination--fun-facts',
+  },
+  1000: {
+    slidesPerView: 1
+  },
+  0:{
+    slidesPerView:1
   },
 })
 
@@ -137,6 +162,14 @@ const swiperPopularRooms = new Swiper('.swiper__popular-rooms', {
     nextEl: popularRoomsNext,
     prevEl: popularRoomsPrev, 
   },
+  breakpoints: {
+    1000: {
+      slidesPerView: 3,
+    },
+    0:{
+      slidesPerView:1
+    },
+  }
 
   
 });

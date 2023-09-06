@@ -1,116 +1,133 @@
 .contact-cards {
-    padding-top: 24px;
-    .contact-cards__container {
-        display: flex;
-        flex-direction: column;
-        gap: 48px;
-        align-items: center;
-        padding-bottom: 68px;
-        .contact-cards__item {
-            position: relative;
-            padding-top: 51.2px;
-            padding-bottom: 56px;
-            padding-left: 32px;
-            padding-right: 32px;
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            gap: 28px;
-            width: 100%;
-            max-width: 370px;
-            max-height: 189px;
-            .contact-cards__title {
-                margin-bottom: 1.32px;
-            }
-              
-            .contact-cards__bg {
-                position: absolute;
-                z-index: -1;
-                top: 30px;
-                right: 40px;
-            }
-              
-        }
-    }
-}  
+  padding-top: 24px;
+}
+.contact-cards__container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  padding-bottom: 68px;
+}
+.contact-cards__item {
+  position: relative;
+  padding-top: 51.2px;
+  padding-bottom: 56px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 28px;
+  width: 100%;
+  max-width: 370px;
+  max-height: 189px;
+}
+.contact-cards__title {
+  margin-bottom: 1.32px;
+}
+
+.contact-cards__bg {
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  right: 40px;
+}
 
 .contact-form {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    .contact-form__img {
-        background-image: url("./img/Contact/map.jpg");
-        width: 100%;
-        height: 40vh;
-        min-height: 200px;
-        max-width: 350px;
-        margin-bottom: 60px;
-        padding-right: 10%;
-        padding-left: 10%;
-    }
-    .contact-form__form{
-        display: flex;
-        flex-direction: column; 
-        width: 100%;
-        max-width: 470px;
-        align-items: center;
-        .contact-form__inputs{
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-            margin-bottom: 16px;
-            width: 100%;
-            .contact-form__input-container{
-                background: #F8F8F8;
-                display: flex;
-                flex-direction: row;
-                padding: 24px 20px;
-                gap: 16px;
-                .contact-form__input{
-                    background: #F8F8F8;
-                    border: none;
-                    width: 100%;
-                }  
-            }              
-        }
-        .contact-form__message{
-            margin-bottom: 36px;
-            background: #F8F8F8;
-            width: 100%;
-            height: 175px;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-top: 24px;
-            padding-bottom: 24px;
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            gap: 16px;
-                .contact-form__input--msg{
-                width: 100%;
-                padding-bottom: 30%;
-                border: none;
-                display: flex;
-            }
-        }
-        .boton-formulario {
-            margin-top: 5%;
-        } 
-    }
-  
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-  
+.contact-form__img {
+  background-image: url("./img/Contact/map.jpg");
+  width: 100%;
+  height: 40vh;
+  min-height: 200px;
+  max-width: 350px;
+  margin-bottom: 60px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.contact-form__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 470px;
+  align-items: center;
+}
+.contact-form__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.contact-form__input-container {
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  padding: 24px 20px;
+  gap: 16px;
+}
+.contact-form__input {
+  background: #f8f8f8;
+  border: none;
+  width: 100%;
+}
 
+.contact-form__message {
+  margin-bottom: 36px;
+  background: #f8f8f8;
+  width: 100%;
+  height: 175px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+}
+.contact-form__input--msg {
+  width: 100%;
+  padding-bottom: 30%;
+  border: none;
+  display: flex;
+}
 
+.boton-formulario {
+  margin-top: 5%;
+}
 
-        
-
-  
-        
-
-  
-  
-
+@media (min-width: 1000px) {
+  .contact-form {
+    padding-bottom: 140px;
+  }
+  .contact-cards {
+    padding-top: 4.5rem;
+  }
+  .contact-cards__container {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 0rem;
+    padding-bottom: 2rem;
+  }
+  .contact-form__img {
+    margin-bottom: 110px;
+  }
+  .contact-form__form {
+    max-width: 970px;
+  }
+  .contact-form__inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact-form__input--msg {
+    padding-bottom: 10%;
+  }
+}
