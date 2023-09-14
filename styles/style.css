@@ -354,12 +354,12 @@
 }
 
 .about-us__card--itemteam {
-  background-image: url("./img/Home/hotelcrew.jpg");
+  background-image: url("../../img/Home/hotelcrew.jpg");
   background-size: cover;
 }
 
 .about-us__card--itemlux {
-  background-image: url("./img/Home/luxury-room-home.jpg");
+  background-image: url("../../img/Home/luxury-room-home.jpg");
   background-size: cover;
 }
 
@@ -1039,32 +1039,32 @@
 }
 
 .menu__slide-img--eggs {
-  background-image: url("./img/Home/eggs.jpg");
+  background-image: url("../../img/Home/eggs.jpg");
   background-size: cover;
 }
 
 .menu__slide-img--tea {
-  background-image: url("./img/Home/tea.jpg");
+  background-image: url("../../img/Home/tea.jpg");
   background-size: cover;
 }
 
 .menu__slide-img--oatmeal {
-  background-image: url("./img/Home/oatmeal.jpg");
+  background-image: url("../../img/Home/oatmeal.jpg");
   background-size: cover;
 }
 
 .menu__slide-img--fruit {
-  background-image: url("./img/Home/fruit.jpg");
+  background-image: url("../../img/Home/fruit.jpg");
   background-size: cover;
 }
 
 .menu__slide-img--marmalade {
-  background-image: url("./img/Home/marmalade.jpg");
+  background-image: url("../../img/Home/marmalade.jpg");
   background-size: cover;
 }
 
 .menu__slide-img--cheese {
-  background-image: url("./img/Home/cheese.jpg");
+  background-image: url("../../img/Home/cheese.jpg");
   background-size: cover;
 }
 
@@ -1620,7 +1620,7 @@
   }
 }
 .footer__container {
-  background-image: url("./img/Footer/fondo.svg");
+  background-image: url("../../img/Footer/fondo.svg");
   padding-left: 5.3%;
   padding-right: 5.3%;
   padding-top: 32px;
@@ -1793,7 +1793,7 @@
   height: 40vh;
   background-color: #dadada;
   margin-bottom: 32px;
-  background-image: url("./img/About/restaurant-about.jpg");
+  background-image: url("../../img/About/restaurant-about.jpg");
   background-size: cover;
 }
 
@@ -2287,7 +2287,7 @@
 }
 
 .contact-form__img {
-  background-image: url("./img/Contact/map.jpg");
+  background-image: url("../../img/Contact/map.jpg");
   width: 100%;
   height: 40vh;
   min-height: 200px;

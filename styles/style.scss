@@ -1,0 +1,28 @@
+@use "./header/header";
+@use "./home/home";
+@use "./home/about-us";
+@use "./home/rooms";
+@use "./home/roomcard";
+@use "./home/roomdetail";
+@use "./home/video";
+@use "./home/menu";
+@use "./home/logros";
+@use "./swiper/swiper";
+@use "./button/button";
+@use "./text/text";
+@use "./footer/footer";
+@use "./titulopagina/titulopagina";
+@use "./about/introduccion";
+@use "./home/core-features";
+@use "./about/counter";
+@use "./rooms/rooms-page";
+@use "./rooms/offers";
+@use "./contact/contact";
+html, * { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body { 
+    min-width: 320px;
+}
